@@ -19,6 +19,57 @@ public class Product {
 		this.price = price;
 		this.category = category;
 	}
+	public Product() {
+		super();
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getSerialNumber() {
+		return serialNumber;
+	}
+	public void setSerialNumber(int serialNumber) {
+		this.serialNumber = serialNumber;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getProductName() {
+		return productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+	public int getQuarntity() {
+		return quarntity;
+	}
+	public void setQuarntity(int quarntity) {
+		this.quarntity = quarntity;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public String getCategory() {
+		return category;
+	}
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", serialNumber=" + serialNumber + ", gender=" + gender + ", productName="
+				+ productName + ", quarntity=" + quarntity + ", price=" + price + ", category=" + category + "]";
+	}
+	
 	
 	
 }
