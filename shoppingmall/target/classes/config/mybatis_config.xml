@@ -9,5 +9,10 @@
      </settings>
 	<typeAliases>
 		<typeAlias type="com.shopping.entity.User" alias="User"/>
+		<typeAlias type="com.shopping.entity.Coupon" alias="Coupon"/>
+		<typeAlias type="com.shopping.entity.Orders" alias="Orders"/>
+		<typeAlias type="com.shopping.entity.Product" alias="Product"/>
+		<typeAlias type="com.shopping.entity.QnA" alias="QnA"/>
+		<typeAlias type="com.shopping.entity.Review" alias="Review"/>
 	</typeAliases>
 </configuration>
