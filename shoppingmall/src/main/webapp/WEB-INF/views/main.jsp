@@ -5,8 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+	iframe{align: middle; width: 780px; height: 450px;}
+</style>
 </head>
 <body>
-
+	<div style="align-self: center;">
+		<iframe src="/resources/video/main_video.mp4" autoplay loop controls preload="auto" ></iframe>
+	</div>
 </body>
 </html>
