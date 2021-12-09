@@ -10,6 +10,10 @@ import com.shopping.service.ShoppingService;
 @Controller
 public class ShoppingController {
 	
+	@GetMapping("mainToolbar")
+	public String mainToolbar() {
+		return "MainTopToolbar";
+	}
 	
 	@GetMapping("main")
 	public String main() {
