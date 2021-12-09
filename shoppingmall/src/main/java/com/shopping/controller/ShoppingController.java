@@ -11,14 +11,100 @@ import com.shopping.service.ShoppingService;
 public class ShoppingController {
 	
 	
-	@GetMapping("shopping/list")
-	public String list() {
-		return "list";
+	@GetMapping("main")
+	public String main() {
+		return "main";
+	}
+	
+	@GetMapping("productList")
+	public String productList() {
+		return "productList";
+	}
+	
+	@GetMapping("productDetail")
+	public String productDetail() {
+		return "productDetail";
+	}
+	
+	@GetMapping("order")
+	public String order() {
+		return "order";
 	}
 	
 	
-	@PostMapping("test")
-	public String test() {
-		return "test";
+	@GetMapping("orderResult")
+	public String orderResult() {
+		return "orderResult";
 	}
+	
+	@GetMapping("cart")
+	public String cart(){
+		return "cart";
+	}
+	
+	@GetMapping("useradd")
+	public String useradd() {
+		return "useradd";
+	}
+	
+	@GetMapping("userResult")
+	public String result() {
+		return "userResult";
+	}
+	
+	@GetMapping("userLogin")
+	public String userLogin() {
+		return "userLogin";
+	}
+	
+	
+	@GetMapping("findId")
+	public String findId() {
+		return "findId";
+	}
+	
+	@GetMapping("findIdResult")
+	public String findIdResult() {
+		return "findIdResult";
+	}
+	
+	@GetMapping("findPassword")
+	public String findPassword() {
+		return "findPassword";
+	}
+	
+	@GetMapping("findPasswordResult")
+	public String findPasswordResult() {
+		return "findPasswordResult";
+	}
+	
+	@GetMapping("orderCheck")
+	public String orderCheck() {
+		return "orderCheck";
+	}
+	
+	@GetMapping("userUpdate")
+	public String userUpdate() {
+		return "userUpdate";
+	}
+	
+	@GetMapping("review")
+	public String review() {
+		return "review";
+	}
+	@GetMapping("InquiryList")
+	public String InquiryList() {
+		return "InquiryList";
+	}
+	
+	@GetMapping("Inquiry")
+	public String Inquiry() {
+		return "Inquiry";
+	}
+	
+	@GetMapping("InquiryResult")
+	public String InquiryResult() {
+		return "InquiryResult";
+	}
+	
 }
