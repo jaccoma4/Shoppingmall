@@ -22,27 +22,27 @@
 	<div id="middle_product">
 		<span class="product">
 		<img alt="" src="/resources/img/man_top_01.jpg" width="236px" height="354px" autoplay loop ><br>
-		목폴라<br>
+		셔츠<br>
 		KRW 480,000
 		</span>
 		<span class="product">
 			<img alt="" src="/resources/img/man_top_01.jpg" width="236px" height="354px" autoplay loop ><br>
-			목폴라<br>
+			셔츠<br>
 			KRW 480,000
 		</span>
 		<span class="product">
 			<img alt="" src="/resources/img/man_top_01.jpg" width="236px" height="354px" autoplay loop ><br>
-			목폴라<br>
+			셔츠<br>
 			KRW 480,000
 		</span>
 		<span class="product">
 			<img alt="" src="/resources/img/man_top_01.jpg" width="236px" height="354px" autoplay loop ><br>
-			목폴라<br>
+			셔츠<br>
 			KRW 480,000
 		</span>
 		<span class="product">
 			<img alt="" src="/resources/img/man_top_01.jpg" width="236px" height="354px" autoplay loop ><br>
-			목폴라<br>
+			셔츠<br>
 			KRW 480,000
 		</span>
 	</div>

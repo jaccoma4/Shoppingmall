@@ -13,7 +13,8 @@
         
         }
         #left_menu_bar{ transform: translateX(-150px);}
-        #right_menu_bar{ transform: translateX(80px);}
+        #right_menu_bar{ transform: translateX(100px);}
+       	#center_logo{ transform: translateX(200px); }
         input[type="text"]{border:none;}
         
 </style>
@@ -27,7 +28,7 @@
                 <li>COLLECTION</li>
             </ul>
         </span>
-        <span class="center_logo"><img src="/resources/img/WooYoungMi_MainLogo.png" alt="메인로고" width="200px" height="50px"></span>
+        <span class="center_logo"><img src="/resources/img/WooYoungMi_MainLogo.png" alt="메인로고" width="200px" height="100px"></span>
         <span id="right_menu_bar">
             <input type="text" placeholder="SEARCH">
             <span>JOIN</span>
