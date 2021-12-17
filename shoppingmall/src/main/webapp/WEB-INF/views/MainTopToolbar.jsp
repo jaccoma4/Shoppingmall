@@ -16,6 +16,7 @@
         #right_menu_bar{ transform: translateX(100px);}
        	#center_logo{ transform: translateX(200px); }
         input[type="text"]{border:none;}
+        #top_menu_bar{margin-bottom: 100px;}
         
 </style>
 </head>
